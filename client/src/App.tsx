@@ -8,6 +8,7 @@ function App() {
   const [click, setClick] = useState<boolean>(false);
   const [counter, setCounter] = useState<number>(0);
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+  const person:[string, age] = ["amir", 35]
 
   const q = query(collection(db, "posts"));
 
